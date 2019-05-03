@@ -327,7 +327,7 @@ footer a{
 
     .products{
         flex-direction: row;
-        max-width: 1200px;
+        max-width: 1300px;
         padding:  0 5em;
     }
 
@@ -338,6 +338,10 @@ footer a{
     }
 
     .product + .product{
-        margin-left: 1em; /*Lo pone a lado a los 3*/
+        margin-left: 2em; /*Lo pone a lado a los 3*/
+    }
+
+    .product:last-of-type{
+        margin-bottom: 0;/*Arreglo deslace de espacio*/
     }
 } 
